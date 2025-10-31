@@ -26,4 +26,5 @@ def scrape_harrisons_route():
 
 @app.get("/scrape/jordan-halstead")
 def scrape_jordan_route():
+    from scraper.jordan_halstead_scraper import scrape_jordan_halstead
     return scrape_jordan_halstead()
